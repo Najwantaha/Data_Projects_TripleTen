@@ -40,7 +40,7 @@ The dataset, `shopify.xlsx`, contains public data scraped from the Shopify App S
 
 ## What Was Done and How
 
-### Part 1: App Landscape
+### App Landscape
 
 The goal of this section was to analyze the types of apps available on the Shopify platform and understand the review trends.
 
@@ -53,9 +53,7 @@ The goal of this section was to analyze the types of apps available on the Shopi
 3. **Scatterplot of Reviews Count vs. Average Rating**:
    - A scatterplot was built comparing the number of reviews (`reviews_count`) with the average rating (`rating`) for each app. This helped identify apps with high numbers of reviews but low ratings and vice versa.
 
-   **Interpretation**: Apps with higher review counts tend to have varying ratings, indicating that the number of reviews does not always correlate directly with app quality or user satisfaction.
-
-### Part 2: Reviews
+### Reviews
 
 In this section, the focus shifted to analyzing the reviews in more depth, using DAX formulas to enhance insights.
 
@@ -73,6 +71,7 @@ In this section, the focus shifted to analyzing the reviews in more depth, using
 
    ```DAX
    developer_answered = IF(ISBLANK(reviews[developer_reply]), 0, 1)
+
    
    - A scatterplot was made to compare the average rating (rating) by whether the developer responded (developer_answered). This analysis helped uncover patterns in how developer responses correlate with ratings.
 
