@@ -4,7 +4,7 @@
 
 This project involves reviewing apps listed on the Shopify platform to identify key factors that contribute to the success of Shopify apps. The analysis was performed using Power BI, where I created visualizations to uncover insights about app types, review patterns, and developer responsiveness. The project also included exploring relationships between tables and using DAX formulas to enhance the data model and generate new insights.
 
-## Objective
+## Objectives
 
 The goals of this project were to:
 - Analyze the types of apps available on the Shopify platform.
@@ -68,14 +68,16 @@ In this section, the focus shifted to analyzing the reviews in more depth, using
 
 2. **Developer Answered Column**:
    - A new column, `developer_answered`, was created using a DAX expression to indicate whether the developer responded to the review. If the `developer_reply` column was not blank, the value was `1` (TRUE); otherwise, it was `0` (FALSE).
-   - A scatterplot was made to compare the average rating (rating) by whether the developer responded (developer_answered). This analysis helped uncover patterns in how developer responses correlate with ratings.
+   - A scatterplot was made to compare the average rating (rating) by whether the developer responded (developer_answered). 
 
- 3. **App Reviews**:
-    - This section focuses on the relationships between apps and their reviews, with an emphasis on analyzing developer responsiveness.
-    - A relationship was established between the **apps** table and the **reviews** table using the `app_id` column from the reviews table and the `id` column from the apps table. This relationship enabled further analysis of the reviews by linking them directly to the respective apps and developers.
+### App Reviews
+ - This section focuses on the relationships between apps and their reviews, with an emphasis on analyzing developer responsiveness.
+   
+1. **Relationship Between Apps and Reviews**:
+    - A relationship was established between the **apps** table and the **reviews** table using the `app_id` column from the reviews table and the `id` column from the apps table. 
     - A **bar chart** was created to show the sum of ratings for each developer. This visualization helped identify which developers received the most user feedback.
       
-  4. **Helpful Reviews Average by Developer**:
+2. **Helpful Reviews Average by Developer**:
      - A new **bar chart** was created to compare the average helpful review score (`helpful_reviews`) by each developer. This chart provided a clearer understanding of which developers received more helpful feedback on average, combining both rating and helpful count.
 
 5. **Developer Responsiveness Analysis**:
@@ -94,7 +96,7 @@ In this section, the focus shifted to analyzing the reviews in more depth, using
 ## Suggestions for App Developers and Next Steps
 
 ### 1. Focus on Developer Engagement:
-   - Developers who respond to reviews tend to see better ratings. It's essential for developers, especially for high-volume apps, to have a structured process for responding to customer feedback promptly. Engaging with users' concerns can lead to higher ratings and improved customer loyalty.
+   - It's essential for developers, especially for high-volume apps, to have a structured process for responding to customer feedback promptly. Engaging with users' concerns can lead to higher ratings and improved customer loyalty.
 
 ### 2. Increase Review Quality:
    - While having many reviews is important, ensuring that reviews are helpful should be a priority. Developers should focus on improving app quality and encouraging users to leave detailed, constructive reviews. 
