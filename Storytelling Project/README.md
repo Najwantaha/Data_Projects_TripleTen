@@ -4,7 +4,7 @@
 
 This project involves using Tableau to analyze the root causes of returned orders for a client. The primary goal was to build interactive visualizations to help identify factors influencing return rates. A well-structured dashboard was created to monitor returns, and a comprehensive story was constructed to explain the findings and guide the client in taking actionable steps to reduce returns and improve profitability.
 
-## Objective and Goals
+## Objectives
 
 The objectives of this project were to:
 - Build various visualizations to understand the factors contributing to returned orders.
