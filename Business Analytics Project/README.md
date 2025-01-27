@@ -4,9 +4,9 @@
 
 This project involves analyzing user activity data from an e-commerce company to provide insights into user interactions, conversion rates, and retention trends. The primary focus was to build a conversion funnel to understand how users interact with the website, prepare data for cohort analysis, and calculate retention rates for each cohort month by month. The goal was to identify areas where the company could improve in retaining users and converting them into paying customers.
 
-## Objective and Goals
+## Objectives
 
-The objective of this analysis was to:
+The objectives of this analysis were to:
 - Explore raw user activity data to understand how users engage with the website.
 - Build a conversion funnel to track the flow of users from viewing products to completing a purchase.
 - Perform cohort analysis to calculate monthly retention rates and track how users continue to interact with the platform over time.
