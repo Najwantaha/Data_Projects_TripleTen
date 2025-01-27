@@ -51,7 +51,7 @@ The goal of this section was to analyze the types of apps available on the Shopi
    - A line chart was created showing the total review count on the Y-axis and the last modification date (`lastmod`) on the X-axis. This helped visualize the trends in app activity over time.
 
 3. **Scatterplot of Reviews Count vs. Average Rating**:
-   - A scatterplot was built comparing the number of reviews (`reviews_count`) with the average rating (`rating`) for each app. This helped identify apps with high numbers of reviews but low ratings and vice versa.
+   - A scatterplot was built comparing the number of reviews (`reviews_count`) with the average rating (`rating`) for each app. 
 
 ### Reviews
 
@@ -68,15 +68,10 @@ In this section, the focus shifted to analyzing the reviews in more depth, using
 
 2. **Developer Answered Column**:
    - A new column, `developer_answered`, was created using a DAX expression to indicate whether the developer responded to the review. If the `developer_reply` column was not blank, the value was `1` (TRUE); otherwise, it was `0` (FALSE).
-
-   ```DAX
-   developer_answered = IF(ISBLANK(reviews[developer_reply]), 0, 1)
-
-   
    - A scatterplot was made to compare the average rating (rating) by whether the developer responded (developer_answered). This analysis helped uncover patterns in how developer responses correlate with ratings.
 
  3. **App Reviews**:
-    - The final section focuses on the relationships between apps and their reviews, with an emphasis on analyzing developer responsiveness.
+    - This section focuses on the relationships between apps and their reviews, with an emphasis on analyzing developer responsiveness.
     - A relationship was established between the **apps** table and the **reviews** table using the `app_id` column from the reviews table and the `id` column from the apps table. This relationship enabled further analysis of the reviews by linking them directly to the respective apps and developers.
     - A **bar chart** was created to show the sum of ratings for each developer. This visualization helped identify which developers received the most user feedback.
       
