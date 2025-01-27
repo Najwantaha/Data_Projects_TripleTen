@@ -1,4 +1,4 @@
-# Zuber Ride-Sharing Analysis – Chicago
+# Data Analysis Using SQL for Zuber
 
 **Project Overview:**
 
