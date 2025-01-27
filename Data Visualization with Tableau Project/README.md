@@ -4,7 +4,7 @@
 
 This project involves analyzing and visualizing the operations of a superstore to help identify key issues affecting profitability and to provide actionable insights. Using Tableau, we built visualizations for profit and loss analysis, advertising effectiveness, and product returns. The goal was to help the store avoid bankruptcy by providing clear and data-driven recommendations on areas to focus on or improve.
 
-## Objective and Goals
+## Objectives
 
 The goals of this project were to:
 - Review the store’s operations and identify important centers of profit and loss.
