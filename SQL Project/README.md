@@ -4,7 +4,7 @@
 
 This project involves analyzing ride data for Zuber, a new ride-sharing company launching in Chicago. The primary objective was to identify patterns in ride behavior, passenger preferences, and the impact of external factors (like weather) on ride frequency and duration. The analysis used SQL queries to extract and manipulate data from a database that contains taxi ride information for Chicago, which includes data from competitors in the area.
 
-## Objective and Goals
+## Objective
 
 The goal of this project was to understand how various external factors such as weather, day of the week, and location influenced ride frequency and duration. Specifically, the analysis focused on testing the hypothesis that weather conditions (such as rain) impact the duration of rides between the Loop and O'Hare International Airport.
 
